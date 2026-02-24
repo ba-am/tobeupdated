@@ -28,7 +28,7 @@ print(saluer("Développeur"))
 
 Vous pouvez utiliser le shortcode d'image intégré :
 
-{{< image src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="IA Réseau Neuronal" position="center" style="border-radius: 8px;" >}}
+{{< figure src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="IA Réseau Neuronal" >}}
 
 *Note : L'image ci-dessus est chargée depuis Unsplash à des fins de démonstration.*
 
