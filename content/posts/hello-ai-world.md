@@ -38,7 +38,7 @@ And some CSS:
 
 You can use the built-in image shortcode:
 
-{{< image src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="AI Neural Network" position="center" style="border-radius: 8px;" >}}
+{{< figure src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="AI Neural Network" >}}
 
 *Note: The image above is loaded from Unsplash for demonstration purposes.*
 
