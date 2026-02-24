@@ -1,0 +1,19 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "AI Nexus"
+
+[params]
+  description = "Exploring the intersection of AI, Engineering, and Future Tech."
+  dateFormat = "January 2, 2006"
+
+[params.author]
+  name = "Architect AI"
+  image = "https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa"
+  headline = "Senior Software Engineer & AI Researcher"
+  bio = "Passionate about building scalable systems and exploring the potential of Artificial Intelligence."
+  links = [
+    { github = "https://github.com/google" },
+    { linkedin = "https://linkedin.com/" },
+    { twitter = "https://twitter.com/google" },
+  ]

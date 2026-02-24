@@ -1,0 +1,19 @@
+languageCode = "fr"
+languageName = "Français"
+weight = 2
+title = "AI Nexus FR"
+
+[params]
+  description = "Explorer l'intersection de l'IA, de l'ingénierie et des technologies futures."
+  dateFormat = "2 Janvier 2006"
+
+[params.author]
+  name = "Architecte IA"
+  image = "https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa"
+  headline = "Ingénieur Logiciel Sénior & Chercheur en IA"
+  bio = "Passionné par la construction de systèmes évolutifs et l'exploration du potentiel de l'Intelligence Artificielle."
+  links = [
+    { github = "https://github.com/google" },
+    { linkedin = "https://linkedin.com/" },
+    { twitter = "https://twitter.com/google" },
+  ]

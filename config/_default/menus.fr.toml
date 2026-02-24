@@ -1,0 +1,14 @@
+[[main]]
+  name = "Articles"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "À propos"
+  pageRef = "about"
+  weight = 20
+
+[[main]]
+  name = "Mots-clés"
+  pageRef = "tags"
+  weight = 30
