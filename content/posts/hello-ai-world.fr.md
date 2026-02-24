@@ -6,6 +6,7 @@ keywords: ["IA", "Futur", "Hugo", "Technologie"]
 tags: ["ia", "hugo", "futur"]
 categories: ["tech", "ia"]
 series: ["AI Journey"]
+audio: ["/audio/welcome.mp3"]
 draft: false
 ---
 
