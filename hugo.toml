@@ -1,70 +1,34 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Hello AI Friend'
-theme = "hello-friend-ng"
+title = 'Blowfish AI Project'
+theme = "blowfish"
 
-[pagination]
-  pagerSize = 5
+# Blowfish specific configurations
+[params]
+  colorScheme = "blowfish" # options: blowfish, fire, horizon, lime, ocean, pink, purple, sky, sunset, terminal, woods
+  defaultAppearance = "dark" # options: light, dark, switcher
+  showArticleCard = true
+  showRecent = true
+  showBreadcrumbs = true
+  showBackToTop = true
 
 [taxonomies]
   tag      = "tags"
   category = "categories"
   series   = "series"
 
-[params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
-
-  # Subtitle for home
-  homeSubtitle = "A simple and beautiful blog, enhanced by AI"
-
-  # Metadata
-  description = "A blog about technology, AI, and more."
-  keywords = "AI, Blog, Tech, Hugo"
-
-  # Enable various features
-  disableReadOtherPosts = false
-  enableSharingButtons = true
-  enableReadingTime = true
-  enableGlobalLanguageMenu = true
-  enableThemeToggle = true
-
-  [params.logo]
-    logoMark     = ">"
-    logoText     = "$ cd /ai-world/"
-    logoHomeLink = "/"
-
-  [params.author]
-    name = "AI Developer"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/google"
-
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/google"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:ai@example.com"
-
 [languages]
   [languages.en]
     languageName = "English"
     weight = 1
-    title = "Hello AI Friend"
-    [languages.en.params]
-      subtitle = "Welcome to the future"
+    contentDir = "content"
+    title = "Blowfish AI Project"
 
   [languages.fr]
     languageName = "Français"
     weight = 2
-    title = "Bonjour l'Ami AI"
-    [languages.fr.params]
-      subtitle = "Bienvenue dans le futur"
+    contentDir = "content"
+    title = "Projet AI Blowfish"
 
 [menu]
   [[menu.main]]
@@ -78,23 +42,3 @@ theme = "hello-friend-ng"
     name       = "About"
     url        = "/about/"
     weight     = 20
-    hasChildren = true
-
-  [[menu.main]]
-    identifier = "me"
-    name       = "AI Me"
-    url        = "/about/me/"
-    parent     = "about"
-    weight     = 1
-
-  [[menu.main]]
-    identifier = "tags"
-    name       = "Tags"
-    url        = "/tags/"
-    weight     = 30
-
-  [[menu.main]]
-    identifier = "categories"
-    name       = "Categories"
-    url        = "/categories/"
-    weight     = 40
