@@ -1,11 +1,12 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "AI Nexus"
+title = "AI Architect"
 
 [params]
-  description = "Exploring the intersection of AI, Engineering, and Future Tech."
+  description = "Architecting the future through Scalable Intelligence."
   dateFormat = "January 2, 2006"
+  logo = "img/logo.png"
 
 [params.author]
   name = "Architect AI"
@@ -15,5 +16,6 @@ title = "AI Nexus"
   links = [
     { github = "https://github.com/google" },
     { linkedin = "https://linkedin.com/" },
-    { twitter = "https://twitter.com/google" },
+    { x-twitter = "https://twitter.com/google" },
+    { email = "mailto:ai@example.com" },
   ]

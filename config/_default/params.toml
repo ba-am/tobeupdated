@@ -1,5 +1,5 @@
 # -- Theme Options --
-colorScheme = "terminal" # Cool professional look
+colorScheme = "ocean" # Deep blue professional aesthetic
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 
@@ -17,9 +17,12 @@ enableCodeCopy = true
   showScrollToTop = true
 
 [homepage]
-  layout = "profile" # Professional profile look
+  layout = "background" # Visual and smart
   showRecent = true
+  showRecentItems = 3
+  showMoreLink = true
   cardView = true
+  layoutBackgroundBlur = true
 
 [article]
   showDate = true
@@ -31,3 +34,10 @@ enableCodeCopy = true
   showTableOfContents = true
   showTaxonomies = true
   sharingLinks = ["linkedin", "twitter", "reddit", "email"]
+  showHeadingAnchors = true
+  showRelatedContent = true
+
+[list]
+  showHero = true
+  heroStyle = "background"
+  cardView = true
