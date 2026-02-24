@@ -1,0 +1,12 @@
+baseURL = 'https://ba-am.github.io/tobeupdated/'
+theme = "blowfish"
+defaultContentLanguage = "en"
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+  author = "authors"
