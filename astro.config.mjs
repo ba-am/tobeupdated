@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://ba-am.github.io',
+	base: '/tobeupdated',
 	integrations: [
 		starlight({
 			title: 'AI Nexus',
