@@ -6,6 +6,8 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
+mainSections = ["posts"]
+
 [header]
   layout = "fixed-fill-blur"
 
@@ -36,6 +38,7 @@ enableCodeCopy = true
   sharingLinks = ["linkedin", "twitter", "reddit", "email"]
   showHeadingAnchors = true
   showRelatedContent = true
+  relatedContentLimit = 6
 
 [list]
   showHero = true
