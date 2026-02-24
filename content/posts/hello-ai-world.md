@@ -7,7 +7,7 @@ tags: ["ai", "hugo", "future"]
 categories: ["tech", "ai"]
 series: ["AI Journey"]
 draft: false
-audio: "/audio/welcome.mp3"
+audio: ["/audio/welcome.mp3"]
 ---
 
 Welcome to the **AI-enhanced** future of blogging. This post showcases various features of the *Hello Friend NG* theme.
