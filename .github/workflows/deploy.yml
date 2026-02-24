@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["feature/ai-enhanced-content"] # Change this to your default branch if needed
+    branches: ["main", "feature/ai-enhanced-content"]
   workflow_dispatch:
 
 permissions:
